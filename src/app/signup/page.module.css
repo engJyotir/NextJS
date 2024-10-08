@@ -6,7 +6,6 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .container {
@@ -16,8 +15,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100vw;
     height: 100vh;
-    
-    /* text-align: center; */
 }
 
 .header {
@@ -80,8 +77,8 @@
     font-size: 16px;
     cursor: pointer;
     background: none;
-    margin: 0 auto; /* Centering horizontally */
-    display: block; /* Ensure it's treated like a block element */
+    margin: 0 auto; 
+    display: block; 
 }
 
 .btn:hover {
@@ -90,12 +87,12 @@
 
 
 .link {
-    display: block; /* Ensure the link behaves like a block element */
-    margin: 20px auto; /* Center the link and add vertical spacing */
+    display: block; 
+    margin: 20px auto; 
     color: rgb(143, 141, 141);
     text-decoration: none;
     font-size: 14px;
-    text-align: center; /* Ensure text inside the link is centered */
+    text-align: center; 
 }
 
 .link:hover {
