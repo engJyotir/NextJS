@@ -1,0 +1,104 @@
+.body {
+    font-family: Lato;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container {
+    background-color: black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+    
+    /* text-align: center; */
+}
+
+.header {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.hr {
+    margin-bottom: 20px;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Lato;
+}
+
+.maindiv{
+    margin-top: 15%;
+}
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.input {
+    width: 30%;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: none;
+    
+}
+
+
+.input:focus {
+    outline: none;
+    border-color: #1877f2; 
+}
+
+
+
+.btn {
+    width: 30%; 
+    padding: 12px;
+    background-color: rgb(193, 190, 190);
+    color: rgb(143, 141, 141);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    margin: 0 auto; /* Centering horizontally */
+    display: block; /* Ensure it's treated like a block element */
+}
+
+.btn:hover {
+    background-color: rgb(49, 48, 48);
+}
+
+
+.link {
+    display: block; /* Ensure the link behaves like a block element */
+    margin: 20px auto; /* Center the link and add vertical spacing */
+    color: rgb(143, 141, 141);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center; /* Ensure text inside the link is centered */
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
